@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #020000;
+    background-color: rgb(59, 60, 158);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #e2e2e2;
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contact{
+    background-color: rgb(21, 32, 32);
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+.membros{
+background-color: aqua;
+text-align: center;
+}
+a, p{
+    color:#ccc;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #020000;
+    color: white;
+}
+h5{
+    color: red;
+    border: none;
+    background-color: #020000;
+    border-radius: 2px;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    border-radius: 5px;
+    background-color: aqua;
+}
+#contact{
+    display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #0a0000;
+            background-color: #25D366; /* Cor padrão do WhatsApp */
+            text-align: center;
+            border-radius: 5px;
+}
